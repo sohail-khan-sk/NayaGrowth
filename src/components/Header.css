@@ -46,9 +46,9 @@
 
 .header.scrolled {
   margin: 10px auto;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4), rgba(240, 250, 240, 0.3));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.77), rgba(240, 250, 240, 0.649));
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.73);
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
 }
