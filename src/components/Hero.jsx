@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import './Hero.css';
 import heroImg from '../assets/egg.png';
 
-const Hero = () => {
+const Hero = ({ onRequestDemo }) => {
   return (
     <section className="hero">
       <div className="container grid-2">
@@ -14,9 +14,9 @@ const Hero = () => {
             Built for real farmers, starting at just ~₹10,000.
           </p>
           <div className="hero-actions">
-            <a href="#contact" className="btn btn-primary">
+            <button onClick={onRequestDemo} className="btn btn-primary">
               Request a Demo <ArrowRight size={20} className="ml-2" />
-            </a>
+            </button>
             <a href="#solution" className="btn btn-secondary">
               Learn More
             </a>
