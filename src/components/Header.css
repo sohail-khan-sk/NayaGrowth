@@ -35,10 +35,8 @@
   width: calc(100% - 40px);
   border-radius: 20px;
   
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
   
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -46,11 +44,9 @@
 
 .header.scrolled {
   margin: 10px auto;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.77), rgba(240, 250, 240, 0.649));
+  background: #ffffff;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.73);
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .header-container {
@@ -142,14 +138,12 @@
 
   .nav {
     position: absolute;
-    top: 85px;
-    left: 0;
-    right: 0;
+    top: 100px;
+    left: 10px;
+    right: 10px;
     
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.942), rgba(240, 250, 240, 0.888));
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 16px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     
